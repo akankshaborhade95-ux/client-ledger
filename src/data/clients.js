@@ -7,17 +7,15 @@ const daysAgo = (d) =>
 
 export const clients = [
 
-  // 🟢 GREEN (fully paid)
   {
     id: 1,
-    name: "ABC Pvt Ltd",
+    name: "Arthdisha Services Pvt Ltd",
     transactions: [
       { id: 1, date: daysAgo(20), type: "debit", description: "Invoice #1001", amount: 50000 },
       { id: 2, date: daysAgo(15), type: "credit", description: "Payment", amount: 50000 }
     ]
   },
 
-  // 🟡 YELLOW (< 30 days pending)
   {
     id: 2,
     name: "Tech Solutions",
@@ -27,7 +25,6 @@ export const clients = [
     ]
   },
 
-  // 🔴 RED (> 30 days overdue)
   {
     id: 3,
     name: "Sunrise Traders",
@@ -37,7 +34,6 @@ export const clients = [
     ]
   },
 
-  // 🔴 RED (no payment, very old)
   {
     id: 4,
     name: "Global Mart",
@@ -46,7 +42,6 @@ export const clients = [
     ]
   },
 
-  // 🟢 GREEN (small fully paid)
   {
     id: 5,
     name: "Quick Services",
