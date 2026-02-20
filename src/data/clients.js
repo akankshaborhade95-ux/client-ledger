@@ -1,4 +1,4 @@
-// helper functions for dynamic dates
+
 const today = new Date();
 const daysAgo = (d) =>
   new Date(today.getTime() - d * 24 * 60 * 60 * 1000)
